@@ -1,0 +1,94 @@
+[33mcommit e383113a022bb858d555c21efc54f75cd3759cb7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Mafud Satrio Setiono <kotamobagu67@gmail.com>
+Date:   Sun May 3 15:28:05 2026 +0800
+
+    Modified Business Impact
+
+ model/X_test.pkl     | Bin [31m0[m -> [32m3804363[m bytes
+ model/y_test.pkl     | Bin [31m0[m -> [32m524582[m bytes
+ pages/1_Dashboard.py |  30 [32m++++++++++++++++++++++[m[31m--------[m
+ 3 files changed, 22 insertions(+), 8 deletions(-)
+
+[33mcommit 3e9d13dcc03773c4974edb9b59e3895c33866951[m
+Author: Mafud Satrio Setiono <kotamobagu67@gmail.com>
+Date:   Sun May 3 15:01:22 2026 +0800
+
+    Add Business Impact
+
+ pages/1_Dashboard.py   | 160 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ utils/preprocessing.py |  52 [32m++++++++++++++++[m
+ 2 files changed, 210 insertions(+), 2 deletions(-)
+
+[33mcommit d9a0a88e9eba4342f13c82d95c0e3abf61d81d5c[m
+Author: Mafud Satrio Setiono <kotamobagu67@gmail.com>
+Date:   Sun May 3 14:32:24 2026 +0800
+
+    Modified Model
+
+ model/model.pkl | Bin [31m238395561[m -> [32m605082[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit be56968321d38fcf497371acf30b58f87706450c[m
+Author: Mafud Satrio Setiono <kotamobagu67@gmail.com>
+Date:   Sun May 3 13:26:50 2026 +0800
+
+    Modified Model
+
+ model.pkl       | Bin [31m238395561[m -> [32m0[m bytes
+ model/model.pkl | Bin [31m935790[m -> [32m238395561[m bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit a2272ff45c408406da5c862f5f9b1e5d2ff4c07e[m
+Author: Mafud Satrio Setiono <kotamobagu67@gmail.com>
+Date:   Sun May 3 13:21:04 2026 +0800
+
+    Modified Model
+
+ model.pkl | Bin [31m935790[m -> [32m238395561[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 942ff35b2d51dd67869f32fe1307db593df20bcb[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Mafud Satrio Setiono <kotamobagu67@gmail.com>
+Date:   Sun May 3 10:09:13 2026 +0800
+
+    Dashboard Streamlit
+
+ .streamlit/config.toml    |    10 [32m+[m
+ README.md                 |    21 [32m+[m[31m-[m
+ app.py                    |   124 [32m+[m
+ data/hotel_clean.csv      | 83294 [32m++++++++++++++++++++++++++++++++++++++++++++[m
+ data/train.csv            | 83294 [32m++++++++++++++++++++++++++++++++++++++++++++[m
+ feature_columns.pkl       |   Bin [31m0[m -> [32m5342[m bytes
+ features.pkl              |   Bin [31m0[m -> [32m5342[m bytes
+ model.pkl                 |   Bin [31m0[m -> [32m935790[m bytes
+ model/feature_columns.pkl |   Bin [31m0[m -> [32m5342[m bytes
+ model/features.pkl        |   Bin [31m0[m -> [32m5342[m bytes
+ model/model.pkl           |   Bin [31m0[m -> [32m935790[m bytes
+ pages/1_Dashboard.py      |   332 [32m+[m
+ pages/2_Profile.py        |    97 [32m+[m
+ pages/3_Predict.py        |   199 [32m+[m
+ requirements.txt          |     8 [32m+[m
+ train.csv                 | 83294 [32m++++++++++++++++++++++++++++++++++++++++++++[m
+ utils/__init__.py         |     1 [32m+[m
+ utils/predict.py          |   138 [32m+[m
+ utils/preprocessing.py    |   264 [32m+[m
+ 19 files changed, 251075 insertions(+), 1 deletion(-)
+
+[33mcommit 03599f465508975ea4dfc990e8bf097fdf34099a[m
+Author: Mafud Satrio Setiono <kotamobagu67@gmail.com>
+Date:   Sat May 2 13:20:58 2026 +0800
+
+    Data Preprocessing
+
+ Hotel_Analytics.ipynb | 3801 [32m+++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 3801 insertions(+)
+
+[33mcommit ebffe0fc21ce0a6f0f6d967f9bc0827cbd39f7b7[m
+Author: Mafud Satrio Setiono <kotamobagu67@gmail.com>
+Date:   Sat May 2 11:59:26 2026 +0800
+
+    Initial commit
+
+ .gitignore | 218 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ README.md  |   1 [32m+[m
+ 2 files changed, 219 insertions(+)
